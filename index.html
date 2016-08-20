@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Mailsystem - Bootstrap 4</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+    <style>
+    .div_searchbar{ 
+      max-width:300px;
+    }
+    table,tbody{
+      width:100%;
+    }
+    .td_checkbox{ 
+      width:5%; 
+    }
+    .td_from{ 
+      width:15%; 
+    }
+    .td_message{ 
+      width:70%; 
+    }
+    .td_date { 
+      width:10%; 
+    }
+    .tr_last { 
+      width:100%;
+    }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-light bg-faded">
+  <div class="nav navbar-nav">
+    <a class="navbar-brand" href="#">Mailsystem - Bootstrap 4</a>
+    <form class="form-inline text-md-center">
+      <div class="input-group div_searchbar">
+        <input type="text" class="form-control input_search" placeholder="">
+        <span class="input-group-btn">
+          <button class="btn btn-outline-primary btn_search" type="button">Search</button>
+        </span>
+      </div>
+    </form>
+  </div>
+</nav>   
+<br>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+    </div>
+    <div class="col-md-8">
+      <button class="btn btn-outline-primary hidden-md-up">New</button>
+      <button class="btn btn-outline-primary">Show all</button>
+      <button class="btn btn-outline-primary">Refresh</button>
+      <button class="btn btn-outline-primary">More</button>
+    </div>
+    <div class="col-md-2 text-md-right">
+      <p></p><b>1-50</b> of <b>372</b>
+        <button class="btn btn-outline-secondary btn-sm"><</button>
+        <button class="btn btn-outline-secondary btn-sm">></button>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <button type="button" class="btn btn-outline-primary btn-block hidden-sm-down">New</button>
+      <button type="button" class="btn btn-link">Inbox</button><br>
+      <button type="button" class="btn btn-link">Spam</button><br>
+      <button type="button" class="btn btn-link">Drafts</button><br>
+      <button type="button" class="btn btn-link">Sent</button><br>
+      <button type="button" class="btn btn-link">Important</button>
+    </div>
+    <div class="col-md-10">
+      <table class="table table-hover">
+        <tbody>
+          <tr class="">
+            <td class="td_checkbox">
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+              </label>
+            </td>
+            <td class="td_from">Mark Otto</td>
+            <td class="td_message">Your Account: User Activation Successful <small>- Your account has been activated successfully! Please check this..</small></td>
+            <td class="td_date text-md-right">Aug 11</td>
+          </tr>
+          <tr class="">
+            <td class="td_checkbox">
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+              </label>
+            </td>
+            <td class="td_from">Codecademy</td>
+            <td class="td_message"> Join the crowd! <small>- In just the past week, over 250,000 people have practiced coding with Codecademy</small></td>
+            <td class="td_date text-md-right">Aug 7</td>
+          </tr>
+          <tr class="">
+            <td class="td_checkbox">
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+              </label>
+            </td>
+            <td class="td_from">Google</td>
+            <td class="td_message"> Great news developer <small>- We just made an new update for Google Cloud.</small></td>
+            <td class="td_date text-md-right">Aug 7</td>
+          </tr>
+          <tr class="">
+            <td class="td_checkbox">
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+              </label>
+            </td>
+            <td class="td_from">WordPress</td>
+            <td class="td_message"> A new comment <small>- A user named Toby has left a comment on your blog</small></td>
+            <td class="td_date text-md-right">Aug 7</td>
+          </tr>
+          <tr class="tr_last">
+          </tr>
+        </tbody>
+      </table>      
+    </div>
+  </div>  
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+</body>
+</html>
